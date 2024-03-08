@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <div class="circles action"  id="box1"  data-section-name="Area1">
+      <div class="circle circle1"></div>
+      <div class="circle circle2"></div>
+      <div class="circle circle3"></div>
+    </div>
+
+    <div class="content">
+      <h1>Move your mouse!</h1>
+    </div>
+
+    <main class="action"  id="box2"  data-section-name="Area2">
+        <h1 class="Click">Click!</h1>
+        <ul id="boxes" class="boxes">
+        </ul>
+    </main>
+
+    <div class="btn_wrapper  action"  id="box3"  data-section-name="Area3">
+        <a id="hover_trigger" class="btn">
+          <div class="btn_inner">
+            <span class="txt">HOVER</span>
+            <span class="txt">NICE!</span>
+          </div>
+        </a>
+    </div>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"
+      integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      ></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

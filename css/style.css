@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .circles {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f64f59;
+    overflow: hidden;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    background-color: #12c2e9;
+    width: 650px;
+    height: 650px;
+    margin: -325px 0 0 -325px;
+  }
+  .circle2 {
+    background-color: #c471ed;
+    width: 440px;
+    height: 440px;
+    margin: -220px 0 0 -220px;
+  }
+  .circle3 {
+    background-color: #f64f59;
+    width: 270px;
+    height: 270px;
+    margin: -135px 0 0 -135px;
+  }
+  
+  .cursor {
+    position: fixed;
+    background-color: #e7acc0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -10px 0 0 -10px;
+    user-select: none;
+    pointer-events: none;
+    z-index: 3;
+  }
+  
+  .content {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    mix-blend-mode: screen;
+  }
+  
+  .content h1 {
+    color: black;
+    margin: 0;
+    font-size: 5rem;
+  }
+
+  main{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .Click{
+    color: #73bcfc;
+  }
+  .boxes {
+    display: grid;
+    grid-gap: 2px;
+  }
+
+  .boxes li{
+    width: 40px;
+    height: 40px;
+    background-color: #d1a8f7;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .btn_wrapper{
+    margin: 0 auto;
+    max-width:320px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+      display: block;
+      width: 100%;
+      font-size:1.4rem;
+      cursor: pointer;
+      border: none;
+      padding: 20px 0;
+      background: #619bff;
+      color:#fff;
+    }  
+.btn_inner{
+      height: 30px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }       
+.txt{
+    padding-bottom: 5px;
+    text-align:center;
+}
+
